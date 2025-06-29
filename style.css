@@ -100,3 +100,14 @@
       box-shadow: 0 0 15px rgba(255, 80, 0, 1);
     }
 
+.card-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.links, .payments {
+  flex: 1;
+  min-width: 140px;
+}
